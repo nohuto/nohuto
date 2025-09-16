@@ -1,1 +1,1 @@
-
+![Stats](https://github-readme-stats.vercel.app/api?username=5Noxi&show_icons=true&theme=dracula) ![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=5Noxi&layout=compact&theme=dracula)

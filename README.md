@@ -1,4 +1,4 @@
-<!-- ![](https://github.com/5Noxi/5Noxi/blob/main/images/mario.gif) -->
+![](https://github.com/5Noxi/5Noxi/blob/main/images/mario.gif)
 
 <!-- ![](https://github-readme-stats.vercel.app/api?username=5Noxi&show_icons=true&theme=shadow_blue) ![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=5Noxi&layout=compact&theme=shadow_blue) -->
 

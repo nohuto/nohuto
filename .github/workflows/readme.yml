@@ -14,11 +14,12 @@ jobs:
     steps:
       - uses: lowlighter/metrics@latest
         with:
+          filename: nvgh-metrics.svg
           token: ${{ secrets.RM_TOKEN }}
           user: 5Noxi
           template: classic
-          base: header #, repositories
-          config_order: base.header #, introduction, languages, base.activity, base.repositories, isocalendar, activity, pagespeed, topics
+          base: header, repositories
+          config_order: base.header, introduction, languages, base.activity, base.repositories, isocalendar, activity, pagespeed, topics
           config_timezone: Europe/Berlin
           plugin_activity: yes
           plugin_activity_days: 14

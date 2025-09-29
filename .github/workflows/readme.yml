@@ -18,8 +18,8 @@ jobs:
           token: ${{ secrets.RM_TOKEN }}
           user: 5Noxi
           template: classic
-          base: header, repositories
-          config_order: base.header, introduction, languages, base.activity, base.repositories, isocalendar, activity
+          base: header
+          config_order: base.header, introduction, languages, base.activity, repositories, isocalendar, activity
           config_timezone: Europe/Berlin
           plugin_activity: yes
           plugin_activity_days: 14
@@ -42,3 +42,6 @@ jobs:
           plugin_languages_recent_load: 300
           plugin_languages_sections: most-used
           plugin_languages_threshold: 0%
+          plugin_repositories: yes
+          plugin_repositories_order: pinned
+          plugin_repositories_pinned: 8

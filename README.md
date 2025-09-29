@@ -5,3 +5,5 @@
 
 [![](https://github-readme-activity-graph.vercel.app/graph?username=5Noxi&custom_title=Contribution%20Graph%20&hide_border=true&theme=react-dark)](https://github.com/5Noxi/github-readme-activity-graph) 
 -->
+
+<p align="center"><img src="/nvgh-metrics.svg" alt="Metrics" width="400"></p>

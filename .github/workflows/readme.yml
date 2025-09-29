@@ -48,9 +48,5 @@ jobs:
           plugin_screenshot_selector: body
           plugin_screenshot_title: Website
           plugin_screenshot_url: https://5noxi.github.io/projects.html
-          plugin_screenshot_viewport: {
-  "width": 1280,
-  "height": 1280
-}
-
+          plugin_screenshot_viewport: {"width": 1280, "height": 1280}
           plugin_screenshot_wait: 1000

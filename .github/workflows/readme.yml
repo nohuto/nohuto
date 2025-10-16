@@ -60,9 +60,16 @@ jobs:
           # PageSpeed
           plugin_pagespeed: yes
           plugin_pagespeed_detailed: yes
-          plugin_pagespeed_screenshot: yes
+          #plugin_pagespeed_screenshot: yes
           plugin_pagespeed_token: ${{ secrets.PAGESPEED }}
           plugin_pagespeed_url: https://5noxi.github.io/projects.html
+          #  Screenshot
+          plugin_screenshot: yes
+          plugin_screenshot_background: yes
+          plugin_screenshot_mode: image
+          plugin_screenshot_selector: body
+          plugin_screenshot_title: Projects Page
+          plugin_screenshot_url: https://5noxi.github.io/projects.html
           # Repositories
           plugin_repositories: yes
           plugin_repositories_order: pinned

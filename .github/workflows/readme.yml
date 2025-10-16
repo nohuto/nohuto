@@ -73,7 +73,7 @@ jobs:
           plugin_screenshot_background: yes
           plugin_screenshot_mode: image
           plugin_screenshot_selector: body
-          plugin_screenshot_wait: 5000
+          plugin_screenshot_wait: 10000
           plugin_screenshot_title: Projects Page
           plugin_screenshot_url: https://5noxi.github.io/projects.html
 

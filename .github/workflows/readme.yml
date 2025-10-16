@@ -18,9 +18,9 @@ jobs:
           token: ${{ secrets.RM_TOKEN }}
           user: 5Noxi
           template: classic
-          base: header, activity, community, repositories
-          #base_indepth: yes
-          config_order: base.header, introduction, base.activity, base.community, base.repositories, languages, repositories, pagespeed, screenshot, isocalendar
+          base: header, repositories
+          base_indepth: yes
+          config_order: base.header, introduction, base.repositories, languages, repositories, isocalendar, pagespeed, screenshot
           config_timezone: Europe/Berlin
           # Activity - Error
           #plugin_activity: yes
@@ -63,18 +63,19 @@ jobs:
           #plugin_pagespeed_screenshot: yes
           plugin_pagespeed_token: ${{ secrets.PAGESPEED }}
           plugin_pagespeed_url: https://5noxi.github.io/projects.html
-          #  Screenshot
-          plugin_screenshot: yes
-          plugin_screenshot_background: yes
-          plugin_screenshot_mode: image
-          plugin_screenshot_selector: body
-          plugin_screenshot_title: Projects Page
-          plugin_screenshot_url: https://5noxi.github.io/projects.html
           # Repositories
           plugin_repositories: yes
           plugin_repositories_order: pinned
           plugin_repositories_pinned: 8
           #repositories_forks: yes
+          #  Screenshot
+          plugin_screenshot: yes
+          plugin_screenshot_background: yes
+          plugin_screenshot_mode: image
+          plugin_screenshot_selector: body
+          plugin_screenshot_wait: 2000
+          plugin_screenshot_title: Projects Page
+          plugin_screenshot_url: https://5noxi.github.io/projects.html
 
           retries: 5
           retries_delay: 1000

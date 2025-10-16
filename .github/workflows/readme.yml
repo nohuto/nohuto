@@ -17,10 +17,10 @@ jobs:
           filename: nvgh-metrics.svg
           token: ${{ secrets.RM_TOKEN }}
           user: 5Noxi
-          template: terminal
-          base: header, activity, community, repositories, metadata
+          template: classic
+          base: header, activity, community, repositories
           base_indepth: yes
-          config_order: base.header, introduction, languages, base.activity, habits, repositories, isocalendar, activity
+          config_order: base.header, introduction, base.activity, base.community, base.repositories, languages, habits, repositories, pagespeed, isocalendar, activity
           config_timezone: Europe/Berlin
           # Activity
           plugin_activity: yes

@@ -19,7 +19,7 @@ jobs:
           user: 5Noxi
           template: classic
           base: header, activity, community, repositories
-          base_indepth: yes
+          #base_indepth: yes
           config_order: base.header, introduction, base.activity, base.community, base.repositories, languages, repositories, pagespeed, isocalendar
           config_timezone: Europe/Berlin
           # Activity - Error
@@ -60,8 +60,9 @@ jobs:
           # PageSpeed
           plugin_pagespeed: yes
           plugin_pagespeed_detailed: yes
-          plugin_pagespeed_url: https://5noxi.github.io/index.html
+          plugin_pagespeed_screenshot: yes
           plugin_pagespeed_token: ${{ secrets.PAGESPEED }}
+          plugin_pagespeed_url: https://5noxi.github.io
           # Repositories
           plugin_repositories: yes
           plugin_repositories_order: pinned

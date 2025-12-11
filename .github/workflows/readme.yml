@@ -62,7 +62,7 @@ jobs:
           plugin_pagespeed_detailed: yes
           #plugin_pagespeed_screenshot: yes
           plugin_pagespeed_token: ${{ secrets.PAGESPEED }}
-          plugin_pagespeed_url: https://5noxi.github.io/projects.html
+          plugin_pagespeed_url: https://nohuto.github.io/projects.html
           # Repositories
           plugin_repositories: yes
           plugin_repositories_order: pinned
@@ -75,7 +75,7 @@ jobs:
           plugin_screenshot_selector: body
           plugin_screenshot_wait: 60000
           plugin_screenshot_title: Projects Page
-          plugin_screenshot_url: https://5noxi.github.io/projects.html
+          plugin_screenshot_url: https://nohuto.github.io/projects.html
 
           retries: 5
           retries_delay: 1000

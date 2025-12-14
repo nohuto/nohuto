@@ -16,7 +16,7 @@ jobs:
         with:
           filename: nvgh-metrics.svg
           token: ${{ secrets.RM_TOKEN }}
-          user: 5Noxi
+          user: nohuto
           template: classic
           base: header, repositories
           base_indepth: yes

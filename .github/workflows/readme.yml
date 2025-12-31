@@ -15,7 +15,7 @@ jobs:
       - uses: lowlighter/metrics@latest
         with:
           filename: nvgh-metrics.svg
-          token: ${{ secrets.RM_TOKEN }}
+          token: ${{ secrets.NV_TOKEN }}
           user: nohuto
           template: classic
           base: header, repositories

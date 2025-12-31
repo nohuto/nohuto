@@ -62,7 +62,7 @@ jobs:
           plugin_pagespeed_detailed: yes
           #plugin_pagespeed_screenshot: yes
           plugin_pagespeed_token: ${{ secrets.PAGESPEED }}
-          plugin_pagespeed_url: https://nohuto.github.io/projects.html
+          plugin_pagespeed_url: https://noverse.dev
           # Repositories
           plugin_repositories: yes
           plugin_repositories_order: pinned

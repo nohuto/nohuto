@@ -16,6 +16,6 @@
 - [windbg-notes](https://github.com/nohuto/windbg-notes)
 -->
 
-[Website](https://noverse.dev) - [All projects](https://noverse.dev/projects) - [nohuto@tuta.io](mailto:nohuto@tuta.io)
+[Website](https://noverse.dev) - [All projects](https://noverse.dev/projects) - [contact@noverse.dev](mailto:contact@noverse.dev)
 
 <!--<img src="/pagespeed.svg" width="400"></p>-->
